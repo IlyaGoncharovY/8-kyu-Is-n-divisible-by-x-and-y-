@@ -1,4 +1,5 @@
 function isDivisible(n, x, y) {
-    // Create a function that checks if a number n is divisible 
-    // by two numbers x AND y All inputs are positive, non-zero digits.
+    let numX = n % x == 0;
+    let numY = n % y == 0;
+    return numX && numY ;
 }
